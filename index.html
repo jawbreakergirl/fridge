@@ -15,7 +15,7 @@
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Javeria's Fridge">
-<meta name="twitter:description" content="Welcome to Javaria's fridge!">
+<meta name="twitter:description" content="Welcome to Javeria's fridge!">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/jawbreakergirl/fridge/main/static/image/ss.png">
 
 <link rel="icon" id="kf-favicon" href="data:," />
@@ -777,8 +777,8 @@ input[type=number]:focus{ outline: none; border-color: var(--gold-soft); box-sha
     <header>
       <div class="header-left" style="display:flex;align-items:center;gap:12px">
         <div>
-          <h1 id="title">Javaria's Fridge <span style="font-size:12px;color:var(--muted);font-weight:600"></span></h1>
-          <div class="subtitle">Welcome to Javaria's fridge.</div>
+          <h1 id="title">Javeria's Fridge <span style="font-size:12px;color:var(--muted);font-weight:600"></span></h1>
+          <div class="subtitle">Welcome to Javeria's fridge.</div>
         </div>
 
         <!-- Social icons - Jawbreaker Girls -->
@@ -2668,17 +2668,17 @@ memesBtn.addEventListener('click', async ()=>{
   memesMode = !memesMode;
   const title = document.getElementById('title');
   if(memesMode){
-    title.textContent = "Javaria's Fridge";
+    title.textContent = "Javeria's Fridge";
     memesBtn.textContent = 'Deactivate Memes Mode';
     await autoloadFromGitHub();
-    memetopiaBody.textContent = "Javaria's Fridge! Welcome to the Javaria vault of memes! Press Continue to close this message.";
+    memetopiaBody.textContent = "Javeria's Fridge! Welcome to the JBG vault of memes! Press Continue to close this message.";
     memetopiaModal.style.display = 'flex';
     memetopiaModal.classList.add('active');
     memetopiaModal.setAttribute('aria-hidden', 'false');
     populatePayoutBoard();
     syncSpinButtonState();
   } else {
-    title.textContent = "Javaria's Fridge";
+    title.textContent = "Javeria's Fridge";
     memesBtn.textContent = 'Activate Memes Mode';
     memetopiaModal.style.display = 'none';
     memetopiaModal.classList.remove('active');
@@ -3278,7 +3278,7 @@ window.addEventListener('keydown', (e) => {
   }
 
   // ---- Battle: 1 user vs 4 bots ----
-  const BOT_NAMES = ['Rudy','Alex','Ruth','Javaria'];
+  const BOT_NAMES = ['Rudy','Alex','Ruth','Javeria'];
   function makeBotAvatar(name){
     const initials = name.slice(0,2).toUpperCase();
     return `<div style="width:44px;height:44px;border-radius:8px;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(0,0,0,0.06));display:flex;align-items:center;justify-content:center;font-weight:900;color:var(--muted);margin-right:8px">${initials}</div>`;
